@@ -9,3 +9,6 @@ class ContaSchema(BaseModel):
     email: str
     senha: str
     telefone: Optional[int]
+
+    class Config:
+        orm_mode = True
