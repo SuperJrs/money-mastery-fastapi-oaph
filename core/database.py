@@ -12,5 +12,3 @@ class Database:
         autocommit=False,
         expire_on_commit=False
     )
-
-    ## Próxima etapa é criar uma função geradora para consumir essa sessão
