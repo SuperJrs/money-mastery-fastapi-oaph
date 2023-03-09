@@ -10,6 +10,5 @@ repo = ContaRepository()
 @router.get("/")
 def obter_contas(db = Depends(get_session)):
     result = repo.get_all(db)
-    print(result)
     return result
 
