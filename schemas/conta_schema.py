@@ -15,7 +15,6 @@ class ContaSchema(BaseModel):
 
 class ContaSchemaOptional(BaseModel):
     nome_proprietario: Optional[str]
-    dt_nasc_proprietario: Optional[date]
     email: Optional[str]
     senha: Optional[str]
     telefone: Optional[int]
