@@ -6,6 +6,7 @@ __pycache__/
 # C extensions
 *.so
 sqlacodegen.txt
+.vscode
 # Distribution / packaging
 .Python
 build/
